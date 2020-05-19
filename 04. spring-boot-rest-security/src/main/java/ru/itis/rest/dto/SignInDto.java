@@ -1,0 +1,9 @@
+package ru.itis.rest.dto;
+
+import lombok.Data;
+
+@Data
+public class SignInDto {
+    private String email;
+    private String password;
+}

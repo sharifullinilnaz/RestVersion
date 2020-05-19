@@ -1,0 +1,39 @@
+POST http://localhost/signIn
+Content-Type: application/json
+
+{
+  "email" : "123@mail.ru",
+  "password": "12345678"
+}
+
+###
+
+GET http://localhost/users
+Authorization: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxNSIsIm5hbWUiOiJTZGRkIiwicm9sZSI6IkFETUlOIn0.unfgRXcR7nNT6EGqwpBYSs7b4LbKCcYuyBMTXv32_I8
+
+###
+
+DELETE http://localhost/users/19
+Authorization: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxNSIsIm5hbWUiOiJTZGRkIiwicm9sZSI6IkFETUlOIn0.unfgRXcR7nNT6EGqwpBYSs7b4LbKCcYuyBMTXv32_I8
+
+###
+
+GET http://localhost/self
+Authorization: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxNSIsIm5hbWUiOiJTZGRkIiwicm9sZSI6IkFETUlOIn0.unfgRXcR7nNT6EGqwpBYSs7b4LbKCcYuyBMTXv32_I8
+
+###
+
+GET http://localhost/articles
+Authorization: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxNSIsIm5hbWUiOiJTZGRkIiwicm9sZSI6IkFETUlOIn0.unfgRXcR7nNT6EGqwpBYSs7b4LbKCcYuyBMTXv32_I8
+
+###
+
+GET http://localhost/article/20
+Authorization: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxNSIsIm5hbWUiOiJTZGRkIiwicm9sZSI6IkFETUlOIn0.unfgRXcR7nNT6EGqwpBYSs7b4LbKCcYuyBMTXv32_I8
+
+###
+
+DELETE http://localhost/articles/24
+Authorization: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxNSIsIm5hbWUiOiJTZGRkIiwicm9sZSI6IkFETUlOIn0.unfgRXcR7nNT6EGqwpBYSs7b4LbKCcYuyBMTXv32_I8
+
+###
